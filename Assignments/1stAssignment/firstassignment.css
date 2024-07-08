@@ -1,0 +1,29 @@
+.container{
+    background-color: rgba(59, 52, 52, 0.521);
+    color: #ffffff;
+    padding: 10px;
+    border-radius:10px;
+    text-align: left;
+      gap: 10px;
+      display:inline-grid;
+      grid-template-columns: repeat(2, 1fr);
+      font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+  max-width: max-content;
+ padding: 10px;
+  margin: 5px 5px 5px 5px;
+  border-radius: 8px;
+}
+.pre {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px ;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    }
+    .shop{color: #3a3939;
+    font-weight: bolder;
+    }

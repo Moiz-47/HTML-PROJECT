@@ -1,0 +1,83 @@
+body{
+  background-image: url("images/tech2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+}
+  h1 {
+  
+    font-family: verdana;
+    font-size: 250%;
+    text-shadow: 2px 1px #1c1d1f8e;
+    font-weight: bold;
+    color: rgba(40, 82, 82, 0.664);
+    background-color: hsla(183, 59%, 15%, 0.288);
+    border: 3px solid #0c090a9d;
+    width: 32%;
+  }
+  p  {
+    border: 2px solid rgb(19, 37, 39);
+    font-family: verdana;
+    font-size:120%;
+    padding:1%;
+    color: rgb(5, 15, 27);
+
+          font-weight: bold;
+          background-color: rgba(88, 113, 129, 0.74);
+          width:90%;
+  }
+  h2 {
+    font-family: verdana;
+    font-size: 250%;
+    text-shadow: 2px 1px #1c1d1f8e;
+    font-weight: bold;
+    color: rgba(40, 82, 82, 0.664);
+    background-color: hsla(183, 59%, 15%, 0.288);
+    border: 3px solid #0c090a9d;
+    width: 60%;
+  
+  }
+  h3 {
+    font-family: verdana;
+    font-size: 250%;
+    text-shadow: 2px 1px #1c1d1f8e;
+    font-weight: bold;
+    color: rgba(40, 82, 82, 0.664);
+ 
+  }
+  p1  {
+    border: 2px solid rgb(19, 37, 39);
+    font-family: verdana;
+    font-size:120%;
+    padding:1%;
+    color: rgb(5, 15, 27);
+
+          font-weight: bold;
+          background-color: rgba(88, 113, 129, 0.74);
+          width:30%;
+          margin-bottom:10px;
+  }
+  h4 {
+    font-family: verdana;
+    font-size: 250%;
+    text-shadow: 2px 1px #1c1d1f8e;
+    font-weight: bold;
+    color: rgba(40, 82, 82, 0.664);
+    background-color: hsla(183, 59%, 15%, 0.288);
+    border: 3px solid #0c090a9d;
+    width: 80%;
+  
+  }
+  pre  {
+    border: 2px solid rgb(19, 37, 39);
+    font-family: verdana;
+    font-size:120%;
+    padding:1%;
+    color: rgb(5, 15, 27);
+
+          font-weight: bold;
+          background-color: rgba(88, 113, 129, 0.74);
+          width:90%;
+          margin-bottom:10px;
+  }

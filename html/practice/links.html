@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Links</title>
+    <link rel="stylesheet" href="/html/practice/styles1.css" />
+    <body
+      style="
+        background-image: url(images/tech2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      "
+    >
+      <h1><span style="color: maroon">1.</span>HTML LINKS</h1>
+      <p>
+        Links are found in nearly all web pages. Links allow users to click
+        their way from page to page.
+      </p>
+      <br />
+      <h2><span style="color: maroon">2.</span>HTML Links - Hyperlinks</h2>
+      <p>
+        HTML links are hyperlinks. You can click on a link and jump to another
+        document. When you move the mouse over a link, the mouse arrow will turn
+        into a little hand.
+      </p>
+
+      <p style="background-color: rgba(220, 20, 60, 0.452); width: 75%">
+        <strong>Note:</strong> A link does not have to be text. A link can be an
+        image or any other HTML element!
+      </p>
+      <br />
+      <h2><span style="color: maroon">3.</span>HTML Links - Syntax</h2>
+      <p>The HTML "&lt;a&gt;" tag defines a hyperlink. It has the following</p>
+      <p style="background-color: rgba(220, 20, 60, 0.452); width: 26%" ;>
+        "&lt;a href="url"&gt;link text"&lt;a&gt;"
+      </p>
+      <h3>EXAMPLE</h3>
+
+      <style>
+        a:link {
+          color: rgba(3, 22, 22, 0.664);
+          background-color: rgba(87, 133, 133, 0.432);
+          width: 25%;
+          border: 2px solid #0c090a9d;
+          border-radius: 5%;
+          margin-top: 2%;
+          text-align: center;
+          text-decoration: none;
+          display: inline-flex;
+          padding: 0.5%;
+        }
+        a:visited {
+          color: rgba(22, 44, 44, 0.664);
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:hover {
+          color: rgb(7, 78, 63);
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:active {
+          color: rgb(10, 133, 102);
+          background-color: transparent;
+          text-decoration: underline;
+        }
+      </style>
+      <p style="background-color: rgba(220, 20, 60, 0.452); width: 65%" ;>
+        "&lt; a href='https://www.w3schools.com/'&gt;" Visit W3Schools.com!
+        "&lt;/a&gt;"
+      </p>
+      <p1>CLICK ON LINK BELOW TO VIEW</p1>
+      <br />
+      <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+      <h4>
+        <span style="color: maroon">4.</span>HTML Links-The target Attribute
+      </h4>
+      <pre>
+By default, the linked page will be displayed in the current browser window.
+<br> To change this, you must specify another target for the link.
+
+        The target attribute specifies where to open the linked document.
+        
+        The target attribute can have one of the following values:
+        
+        _self - Default. Opens the document in the same window/tab as it was clicked
+        _blank - Opens the document in a new window or tab
+        _parent - Opens the document in the parent frame
+        _top - Opens the document in the full body of the window</pre>
+      <h3>EXAMPLE</h3>
+      <p>
+        Use target="_blank" to open the linked document in a new browser window
+        or tab:
+      </p>
+      <p style="background-color: rgba(220, 20, 60, 0.452); width: 90%" ;>
+        "&lt; a href='https://www.w3schools.com/' target="_blank" &gt;" Visit
+        W3Schools.com! "&lt;/a&gt;"
+      </p>
+      <p1>CLICK ON LINK BELOW TO VIEW</p1>
+      <br />
+      <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+      <hr />
+      <h4>
+        <span style="color: maroon">5.</span>Absolute URLs vs. Relative URLs
+      </h4>
+      <pre>
+        Both examples above are using an absolute URL (a full web address) in the href attribute.
+        <br>
+       A local link (a link to a page within the same website) is specified with a relative URL
+       <br>
+       (without the "https://www" part):
+
+      </pre>
+      <h3>EXAMPLE</h3>
+      <h2>Absolute URLs</h2>
+      <p><a href="https://www.w3.org/">W3C</a></p>
+      <p><a href="https://www.google.com/">Google</a></p>
+
+      <h2>Relative URLs</h2>
+      <p><a href="html_images.asp">HTML Images</a></p>
+      <p><a href="/css/default.asp">CSS Tutorial</a></p>
+      <hr />
+      <h4>
+        <span style="color: maroon">6.</span>HTML Links - Use an Image as a Link
+      </h4>
+      <p>
+        To use an image as a link, just put the "&lt;img&gt;" tag inside the
+        "&lt;a&gt;" tag:
+      </p>
+      <h3>EXAMPLE</h3>
+      <h2>Image as a Link</h2>
+
+      <p>The image below is a link. Try to click on it.</p>
+
+      <a href="default.asp"
+        ><img
+          src="/html/practice/icons/favicon.ico"
+          alt="HTML tutorial"
+          style="width: 42px; height: 42px"
+      /></a>
+    </body>
+  </head>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+              a:link {
+                color: rgba(0, 255, 136, 0.747);
+                background-color:transparent;
+          width: 10%;
+          border: 2px solid #0c090a9d;
+          border-radius: 5%;
+          text-align: center;
+          text-decoration: none;
+          display: inline-flex;
+          padding: 0.5%;
+        }
+        a:visited {
+          color: rgba(0, 255, 242, 0.801);
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:hover {
+          color: rgb(7, 78, 63);
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:active {
+          color: rgb(10, 133, 102);
+          background-color: transparent;
+          text-decoration: underline;
+        }
+    </style>
+    <title>HTML IMAGES</title>
+    <link rel="stylesheet" href="/html/practice/images.css" />
+    <body>
+      <h1>HTML Images</h1>
+      <p>
+        Images can improve the design and the appearance of a web page.
+      </p>
+      <h3>EXAMPLE</h3>
+      <img src="images/painting-mountain-lake-with-mountain-background.jpg" alt="Painting" width="460" height="345">
+      <hr>
+      <h2>
+          <span style="color: maroon">1.</span>HTML Images Syntax
+      </h2>
+      <pre>
+        The HTML "&lt;img&gt;" tag is used to embed an image in a web page.
+        The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+
+The "&lt;img&gt;"tag has two required attributes:
+
+src - Specifies the path to the image
+alt - Specifies an alternate text for the image
+      </pre>
+      <h3>EXAMPLE</h3>
+      <p>
+        "&lt;img src="url" alt="alternatetext"&gt;"</p>
+        <hr>
+        <h2>
+          <span style="color: maroon">2.</span>The src Attribute </h2>
+          <pre>
+            The required src attribute specifies the path (URL) to the image.
+
+            Note: When a web page loads, it is the browser, at that moment,
+            that gets the image from a web server and inserts it into the page.
+            Therefore, make sure that the image actually stays in the same spot 
+            in relation to the web page, otherwise your visitors will get a broken 
+            link icon. The broken link icon and the alt text are shown if the browser
+            cannot find the image. 
+          </pre>
+          <h2>Alternative text</h2>
+
+<p>The alt attribute should reflect the image content, so users who cannot see the image get an understanding of what the image contains:</p>
+<h3>EXAMPLE</h3>
+<img src="images/painting-mountain-lake-with-mountain-background.jpg" alt="Painting" width="460" height="345">
+     <hr>
+     <h2>
+      <span style="color: maroon">3.</span>The alt Attribute </h2>
+      <pre>
+        The required alt attribute provides an alternate text for an image,
+        if the user for some reason cannot view it (because of slow connection,
+        an error in the src attribute, or if the user uses a screen reader).
+        The value of the alt attribute should describe the image:
+      </pre>
+      <h3>EXAMPLE</h3>
+      <img src="images/painting-mountain-lake-with-mountain-background.jpg" alt="Painting" width="460" height="345">
+      <p>If a browser cannot find an image, it will display the value of the alt attribute:</p>
+      <img src="wrongname.gif" alt="Painting" width="460" height="345">
+      <hr>
+      <h4>
+        <span style="color: maroon">4.</span>Image Size - Width and Height</h4>
+        <p>
+          You can use the style attribute to specify the width and height of an image.
+        </p>
+        <h3>EXAMPLE</h3>
+        <img src="images/painting-mountain-lake-with-mountain-background.jpg" alt="Painting" style="width:500px;height:600px;">
+        <p>Alternatively, you can use the width and height attributes:</p>
+        <h3>EXAMPLE</h3>
+        <img src="images/painting-mountain-lake-with-mountain-background.jpg" alt="Painting" width="500" height="600">
+        <hr>
+        <h4>
+          <span style="color: maroon">4.</span>Width and Height, or Style?</h4>
+          <pre>
+            The width, height, and style attributes are all valid in HTML.
+            However, we suggest using the style attribute. It prevents styles
+            sheets from changing the size of images:
+          </pre>
+          <h3>EXAMPLE</h3>
+          <a href="/html/practice/htmlimages13link.html">Click Here</a>
+          <hr>
+          <h4>
+            <span style="color: maroon">5.</span>Images in Another Folder</h4>
+            <p>If you have your images in a sub-folder, you must include the folder name 
+              in the src attribute:</p>
+              <h3>EXAMPLE</h3>
+              <h2>Images in Another Folder</h2>
+<p>It is common to store images in a sub-folder. You must then include the folder name in the src attribute:</p>
+
+<img src="/html/practice/icons/html-5.png" alt="HTML5 Icon" style="width:128px;height:128px;">
+<hr>
+<h4><span style="color: maroon">6.</span>Images on Another Server/Website</h4>
+<pre>Some web sites point to an image on another server.
+     To point to an image on another server, you must specify
+     an absolute (full) URL in the src attribute:</pre>
+     <h3>EXAMPLE</h3>
+     <img src="https://www.w3schools.com/images/w3schools_green.jpg"
+      alt="W3Schools.com" style="width:104px;height:142px;">
+      <hr>
+      <h4><span style="color: maroon">7.</span>Animated Image</h4>
+      <p>HTML allows animated GIFs:such as Moving images</p>
+      <h3>EXAMPLE</h3>
+      <img src="/html/practice/images/Coding GIF - Coding - Discover & Share GIFs.gif" alt="CODING GIF" style="width:350px;height:250px;">
+<hr>
+<h4><span style="color: maroon">8.</span>Image as a Link</h4>
+<p>
+  To use an image as a link, put the "&lt;img&gt;" tag inside the "&lt;a&gt;" tag:
+</p>
+<h3>EXAMPLE</h3>
+<a href="default.asp">
+  <img src="/html/practice/images/Emoji GIF - Emoji - Discover & Share GIFs.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+  </a>
+  <hr>
+  <h4><span style="color: maroon">9.</span>Image Floating</h4>
+  <p>
+    Use the CSS float property to let the image float to the right or to the left of a text:
+  </p>
+  <h3>EXAMPLE</h3>
+  <p><strong>Float the image to the right:</strong></p>
+
+<p>
+<img src="/html/practice/images/Emoji GIF - Emoji - Discover & Share GIFs.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+</p>
+
+<p><strong>Float the image to the left:</strong></p>
+<p>
+<img src="/html/practice/images/Emoji GIF - Emoji - Discover & Share GIFs.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.  
+</p>
+<hr>
+    </body>
+  </head></html>
+      
